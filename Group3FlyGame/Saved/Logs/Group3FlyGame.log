@@ -2056,3 +2056,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.16-19.17.36:515][974]LogDeviceProfile: Device profile begin destroy: [0000027788546300] HoloLens
 [2021.11.16-19.17.50:493][974]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
 [2021.11.16-19.17.50:493][974]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-19.18.35:244][974]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-19.18.35:244][974]LogExit: Editor shut down
+[2021.11.16-19.18.35:245][974]LogExit: Transaction tracking system shut down
+[2021.11.16-19.18.35:297][974]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.11.16-19.19.03:622][974]LogExit: Object subsystem successfully closed.
+[2021.11.16-19.19.05:076][974]LogShaderCompilers: Display: Shaders left to compile 0
