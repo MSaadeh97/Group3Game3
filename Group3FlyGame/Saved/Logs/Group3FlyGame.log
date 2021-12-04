@@ -5081,3 +5081,367 @@ Scale3D: 1.000000 1.000000 1.000000
 [2021.12.04-02.03.41:177][468]AssetCheck: New page: Asset Save: multiple assets
 [2021.12.04-02.03.41:177][468]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyGame/BuildLevel_BuiltData.BuildLevel_BuiltData
 [2021.12.04-02.03.41:177][468]LogContentValidation: Display: Validating World /Game/FlyGame/BuildLevel.BuildLevel
+[2021.12.04-02.04.53:982][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.04-02.04.53:995][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.12.04-02.04.54:063][251]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel4EAFD4CA497C1333A93513A721CD386D.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap'
+[2021.12.04-02.04.54:076][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel_BuiltData" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset" SILENT=true
+[2021.12.04-02.04.54:187][251]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel_BuiltData10B63AE64E2C8DB90FDC828D0BF76B19.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset'
+[2021.12.04-02.04.54:202][251]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.04-02.04.54:202][251]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyGame/BuildLevel_BuiltData.BuildLevel_BuiltData
+[2021.12.04-02.04.54:202][251]LogContentValidation: Display: Validating World /Game/FlyGame/BuildLevel.BuildLevel
+[2021.12.04-02.05.05:928][606]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.04-02.05.10:610][146]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.04-02.05.12:230][316]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.04-02.05.12:236][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.04-02.05.12:236][316]PIE: New page: PIE session: BuildLevel (Dec 3, 2021, 4:05:12 PM)
+[2021.12.04-02.05.12:236][316]LogPlayLevel: Creating play world package: /Game/FlyGame/UEDPIE_0_BuildLevel
+[2021.12.04-02.05.12:258][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021419s)
+[2021.12.04-02.05.12:259][316]LogAIModule: Creating AISystem for world BuildLevel
+[2021.12.04-02.05.12:259][316]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2021.12.04-02.05.12:259][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyGame/BuildLevel.BuildLevel to /Game/FlyGame/UEDPIE_0_BuildLevel.BuildLevel (0.022870s)
+[2021.12.04-02.05.12:277][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.12.04-02.05.12:281][316]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.04-02.05.12:281][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.04-02.05.12:281][316]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.04-02.05.12:281][316]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.04-02.05.12:284][316]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.04-02.05.12:284][316]LogAudioMixer: Display: 1: FrontRight
+[2021.12.04-02.05.12:295][316]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.12.04-02.05.12:295][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.04-02.05.12:295][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.04-02.05.12:295][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.04-02.05.12:295][316]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.04-02.05.12:295][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.04-02.05.12:295][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.04-02.05.12:311][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.04-02.05.12:311][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.04-02.05.12:311][316]LogInit: FAudioDevice initialized.
+[2021.12.04-02.05.12:311][316]LogAudio: Display: Audio Device (ID: 50) registered with world 'BuildLevel'.
+[2021.12.04-02.05.12:317][316]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.12.04-02.05.12:320][316]LogWorld: Bringing World /Game/FlyGame/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2021.12.03-21.05.12
+[2021.12.04-02.05.12:320][316]LogWorld: Bringing up level for play took: 0.002935
+[2021.12.04-02.05.12:320][316]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2021.12.04-02.05.12:325][316]PIE: Server logged in
+[2021.12.04-02.05.12:326][316]PIE: Play in editor total start time 0.091 seconds.
+[2021.12.04-02.05.46:809][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.04-02.05.46:809][402]LogWorld: BeginTearingDown for /Game/FlyGame/UEDPIE_0_BuildLevel
+[2021.12.04-02.05.46:809][402]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.05.46:809][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.04-02.05.46:817][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.04-02.05.46:838][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.04-02.05.46:850][402]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.04-02.05.46:850][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.04-02.05.46:851][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.04-02.05.46:868][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.04-02.05.46:871][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.12.04-02.05.46:896][403]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2021.12.04-02.05.48:470][582]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.04-02.05.53:013][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.04-02.05.53:026][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.12.04-02.05.53:089][108]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel7234353645EA0104CD3747B76BDC9BBB.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap'
+[2021.12.04-02.05.53:102][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel_BuiltData" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset" SILENT=true
+[2021.12.04-02.05.53:210][108]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel_BuiltData2A95DDC64B27E3E7D798199FCC635DEA.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset'
+[2021.12.04-02.05.53:227][108]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.04-02.05.53:227][108]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyGame/BuildLevel_BuiltData.BuildLevel_BuiltData
+[2021.12.04-02.05.53:227][108]LogContentValidation: Display: Validating World /Game/FlyGame/BuildLevel.BuildLevel
+[2021.12.04-02.05.53:771][168]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.04-02.05.53:778][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.04-02.05.53:778][168]PIE: New page: PIE session: BuildLevel (Dec 3, 2021, 4:05:53 PM)
+[2021.12.04-02.05.53:809][168]LogPlayLevel: Creating play world package: /Game/FlyGame/UEDPIE_0_BuildLevel
+[2021.12.04-02.05.53:828][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019445s)
+[2021.12.04-02.05.53:829][168]LogAIModule: Creating AISystem for world BuildLevel
+[2021.12.04-02.05.53:830][168]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2021.12.04-02.05.53:830][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyGame/BuildLevel.BuildLevel to /Game/FlyGame/UEDPIE_0_BuildLevel.BuildLevel (0.020655s)
+[2021.12.04-02.05.53:846][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.12.04-02.05.53:847][168]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2021.12.04-02.05.53:847][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.04-02.05.53:847][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.04-02.05.53:847][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.04-02.05.53:847][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.04-02.05.53:847][168]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.04-02.05.53:847][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.04-02.05.53:847][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.04-02.05.53:847][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.04-02.05.53:848][168]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.04-02.05.53:848][168]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.04-02.05.53:852][168]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.04-02.05.53:852][168]LogAudioMixer: Display: 1: FrontRight
+[2021.12.04-02.05.53:862][168]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.12.04-02.05.53:862][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.04-02.05.53:862][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.04-02.05.53:862][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.04-02.05.53:863][168]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.04-02.05.53:863][168]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.04-02.05.53:863][168]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.04-02.05.53:878][168]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.04-02.05.53:878][168]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.04-02.05.53:878][168]LogInit: FAudioDevice initialized.
+[2021.12.04-02.05.53:878][168]LogAudio: Display: Audio Device (ID: 51) registered with world 'BuildLevel'.
+[2021.12.04-02.05.53:890][168]LogLoad: Game class is 'FlyingGameMode_C'
+[2021.12.04-02.05.53:893][168]LogWorld: Bringing World /Game/FlyGame/UEDPIE_0_BuildLevel.BuildLevel up for play (max tick rate 0) at 2021.12.03-21.05.53
+[2021.12.04-02.05.53:893][168]LogWorld: Bringing up level for play took: 0.002805
+[2021.12.04-02.05.53:893][168]LogOnline: OSS: Creating online subsystem instance for: :Context_72
+[2021.12.04-02.05.53:898][168]PIE: Server logged in
+[2021.12.04-02.05.53:898][168]PIE: Play in editor total start time 0.121 seconds.
+[2021.12.04-02.05.59:930][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.04-02.05.59:930][879]LogWorld: BeginTearingDown for /Game/FlyGame/UEDPIE_0_BuildLevel
+[2021.12.04-02.05.59:931][879]LogWorld: UWorld::CleanupWorld for BuildLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.05.59:931][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.04-02.05.59:937][879]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.04-02.05.59:957][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.04-02.05.59:968][879]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.04-02.05.59:969][879]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.04-02.05.59:970][879]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.04-02.05.59:985][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.04-02.05.59:989][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.12.04-02.06.00:014][880]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2021.12.04-02.06.01:089][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.04-02.06.01:101][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.12.04-02.06.01:164][  3]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel6FE8188043B176C239D24FBD2C51D97B.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap'
+[2021.12.04-02.06.01:184][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel_BuiltData" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset" SILENT=true
+[2021.12.04-02.06.01:297][  3]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel_BuiltDataD80DC6C94806F46A5A6FBFB399CDE42F.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset'
+[2021.12.04-02.06.01:313][  3]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.04-02.06.01:313][  3]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyGame/BuildLevel_BuiltData.BuildLevel_BuiltData
+[2021.12.04-02.06.01:313][  3]LogContentValidation: Display: Validating World /Game/FlyGame/BuildLevel.BuildLevel
+[2021.12.04-02.16.01:363][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.12.04-02.16.01:378][ 49]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FlyGame/BuildLevel' took 0.031
+[2021.12.04-02.16.01:379][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/FlyingGameMode] ([1] browsable assets)...
+[2021.12.04-02.16.01:379][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/FlyingGameMode]
+[2021.12.04-02.16.01:382][ 49]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/FlyingGameMode_Auto36069534141E2386B4A0FB784DCC208E5.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/FlyingBP/Blueprints/FlyingGameMode_Auto3.uasset'
+[2021.12.04-02.16.01:391][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyGame/Blueprints/Tuttext/DestroyTutText] ([1] browsable assets)...
+[2021.12.04-02.16.01:391][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyGame/Blueprints/Tuttext/DestroyTutText]
+[2021.12.04-02.16.01:396][ 49]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/DestroyTutText_Auto38B49EC70478BC490547C76BF50BBFB9F.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/FlyGame/Blueprints/Tuttext/DestroyTutText_Auto3.uasset'
+[2021.12.04-02.16.01:397][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ArtAssets/Ammo_Box] ([1] browsable assets)...
+[2021.12.04-02.16.01:415][ 49]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ArtAssets/Ammo_Box.Ammo_Box]
+[2021.12.04-02.16.01:415][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/ArtAssets/Ammo_Box]
+[2021.12.04-02.16.01:415][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Ammo_Box" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Ammo_Box_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2021.12.04-02.16.01:423][ 49]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Ammo_Box_Auto32BB1AF3240F08BB2D3898B83D1E7FB48.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Ammo_Box_Auto3.uasset'
+[2021.12.04-02.16.01:424][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ArtAssets/Wood_Texture] ([1] browsable assets)...
+[2021.12.04-02.16.01:429][ 49]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ArtAssets/Wood_Texture.Wood_Texture]
+[2021.12.04-02.16.01:429][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/ArtAssets/Wood_Texture]
+[2021.12.04-02.16.01:429][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Wood_Texture" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Wood_Texture_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2021.12.04-02.16.01:439][ 49]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Wood_Texture_Auto36EA1445E49F5D8F6BCA8438EC5F51DAC.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Wood_Texture_Auto3.uasset'
+[2021.12.04-02.16.01:441][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ArtAssets/Untit] ([1] browsable assets)...
+[2021.12.04-02.16.01:445][ 49]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ArtAssets/Untit.Untit]
+[2021.12.04-02.16.01:445][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/ArtAssets/Untit]
+[2021.12.04-02.16.01:445][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Untit" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Untit_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2021.12.04-02.16.01:466][ 49]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Untit_Auto31AFC2A6740883A3301414E8AF171AA15.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Untit_Auto3.uasset'
+[2021.12.04-02.16.01:467][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ArtAssets/Metal] ([1] browsable assets)...
+[2021.12.04-02.16.01:474][ 49]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ArtAssets/Metal.Metal]
+[2021.12.04-02.16.01:474][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/ArtAssets/Metal]
+[2021.12.04-02.16.01:474][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Metal" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Metal_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2021.12.04-02.16.01:506][ 49]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Metal_Auto336AB00BA49CA268F1DC0918A10329AAD.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Autosaves/Game/ArtAssets/Metal_Auto3.uasset'
+[2021.12.04-02.16.01:507][ 49]LogFileHelpers: Auto-saving content packages took 0.129
+[2021.12.04-02.27.11:072][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.04-02.27.11:087][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.12.04-02.27.11:157][167]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel4D3DDC6B486B87769E685D8B5A14E025.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel.umap'
+[2021.12.04-02.27.11:174][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/BuildLevel_BuiltData" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset" SILENT=true
+[2021.12.04-02.27.11:303][167]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/BuildLevel_BuiltDataDCF07A8544370A799959E3B0AEC6237A.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/BuildLevel_BuiltData.uasset'
+[2021.12.04-02.27.11:321][167]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.04-02.27.11:321][167]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyGame/BuildLevel_BuiltData.BuildLevel_BuiltData
+[2021.12.04-02.27.11:321][167]LogContentValidation: Display: Validating World /Game/FlyGame/BuildLevel.BuildLevel
+[2021.12.04-02.27.12:862][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.12.04-02.27.14:101][341]LogSlate: Window 'Save Content' being destroyed
+[2021.12.04-02.27.14:138][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/aiStandardSurface2" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface2.uasset" SILENT=true
+[2021.12.04-02.27.14:143][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/aiStandardSurface2EA87DD734352B1CEBA1F01B2B05F5B19.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface2.uasset'
+[2021.12.04-02.27.14:153][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/aiStandardSurface3" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface3.uasset" SILENT=true
+[2021.12.04-02.27.14:159][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/aiStandardSurface3297AAA0A4AAA455D5A4A37A906ACC256.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface3.uasset'
+[2021.12.04-02.27.14:170][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/aiStandardSurface4" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface4.uasset" SILENT=true
+[2021.12.04-02.27.14:175][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/aiStandardSurface4DAC72E2C48CBC1C382C2449B5D3F9AAA.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface4.uasset'
+[2021.12.04-02.27.14:185][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/aiStandardSurface5" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface5.uasset" SILENT=true
+[2021.12.04-02.27.14:190][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/aiStandardSurface5BC5B675C473469D6B69884AF2A3F178C.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/aiStandardSurface5.uasset'
+[2021.12.04-02.27.14:191][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Ammo_Box" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Ammo_Box.uasset" SILENT=true
+[2021.12.04-02.27.14:194][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Ammo_Box48665C2146DA6E9F3FEBFB8191253080.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Ammo_Box.uasset'
+[2021.12.04-02.27.14:195][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyGame/Blueprints/Tuttext/DestroyTutText" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/Blueprints/Tuttext/DestroyTutText.uasset" SILENT=true
+[2021.12.04-02.27.14:200][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/DestroyTutTextFE07EEF34DABDF4052104599B1A8BF8C.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyGame/Blueprints/Tuttext/DestroyTutText.uasset'
+[2021.12.04-02.27.14:211][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/fan" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/fan.uasset" SILENT=true
+[2021.12.04-02.27.14:217][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/fan539CCF5147CE318103591990A840D60D.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/fan.uasset'
+[2021.12.04-02.27.14:218][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyingBP/Blueprints/FlyingGameMode" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyingBP/Blueprints/FlyingGameMode.uasset" SILENT=true
+[2021.12.04-02.27.14:222][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/FlyingGameModeE621EA1146BE6EE37A7520A85D73925C.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/FlyingBP/Blueprints/FlyingGameMode.uasset'
+[2021.12.04-02.27.14:223][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Metal" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Metal.uasset" SILENT=true
+[2021.12.04-02.27.14:423][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/MetalD32ABE864EA5EB8DFA61F3B651A26D3E.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Metal.uasset'
+[2021.12.04-02.27.14:423][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Untit" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Untit.uasset" SILENT=true
+[2021.12.04-02.27.14:633][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Untit5935728C44A46B2AD57F339D401C0307.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Untit.uasset'
+[2021.12.04-02.27.14:635][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArtAssets/Wood_Texture" FILE="../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Wood_Texture.uasset" SILENT=true
+[2021.12.04-02.27.14:658][341]LogSavePackage: Moving '../../../../../Unreal/Group3Game3/Group3FlyGame/Saved/Wood_Texture38DBB782490ED798644A7E9985D21169.tmp' to '../../../../../Unreal/Group3Game3/Group3FlyGame/Content/ArtAssets/Wood_Texture.uasset'
+[2021.12.04-02.27.14:753][341]LogSlate: Window 'Group3FlyGame - Unreal Editor' being destroyed
+[2021.12.04-02.27.15:701][341]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.04-02.27.15:701][341]LogContentValidation: Display: Validating Blueprint /Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode
+[2021.12.04-02.27.15:701][341]LogContentValidation: Display: Validating Texture2D /Game/ArtAssets/Metal.Metal
+[2021.12.04-02.27.15:701][341]LogContentValidation: Display: Validating Texture2D /Game/ArtAssets/Untit.Untit
+[2021.12.04-02.27.15:701][341]LogContentValidation: Display: Validating Texture2D /Game/ArtAssets/Wood_Texture.Wood_Texture
+[2021.12.04-02.27.15:702][341]LogContentValidation: Display: Validating Material /Game/ArtAssets/fan.fan
+[2021.12.04-02.27.15:702][341]LogContentValidation: Display: Validating Blueprint /Game/FlyGame/Blueprints/Tuttext/DestroyTutText.DestroyTutText
+[2021.12.04-02.27.15:702][341]LogContentValidation: Display: Validating Material /Game/ArtAssets/aiStandardSurface5.aiStandardSurface5
+[2021.12.04-02.27.15:702][341]LogContentValidation: Display: Validating Material /Game/ArtAssets/aiStandardSurface3.aiStandardSurface3
+[2021.12.04-02.27.15:702][341]LogContentValidation: Display: Validating Material /Game/ArtAssets/aiStandardSurface4.aiStandardSurface4
+[2021.12.04-02.27.15:702][341]LogContentValidation: Display: Validating Material /Game/ArtAssets/aiStandardSurface2.aiStandardSurface2
+[2021.12.04-02.27.15:702][341]LogContentValidation: Display: Validating StaticMesh /Game/ArtAssets/Ammo_Box.Ammo_Box
+[2021.12.04-02.27.15:705][342]Cmd: QUIT_EDITOR
+[2021.12.04-02.27.15:705][342]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.12.04-02.27.15:942][342]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.12.04-02.27.16:632][342]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.12.04-02.27.16:632][342]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.12.04-02.27.16:633][342]LogAudio: Display: Audio Device unregistered from world 'BuildLevel'.
+[2021.12.04-02.27.16:633][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.04-02.27.16:635][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.04-02.27.16:750][342]LogAudio: Display: Audio Device Manager Shutdown
+[2021.12.04-02.27.16:750][342]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.04-02.27.17:008][342]LogExit: Preparing to exit.
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BA200] Windows
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BA300] Default__DeviceProfile
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55A400] WindowsNoEditor
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9500] WindowsServer
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55B000] WindowsClient
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BA100] IOS
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55A000] iPadAir
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9100] iPadAir2
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6100] IPadPro
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6200] iPadAir3
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE559600] iPadAir4
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7A00] iPadMini2
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55A500] iPadMini3
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5400] iPadMini4
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55BB00] iPadMini5
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE505A00] iPhone6
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE505B00] iPodTouch6
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7F00] iPhone7
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5F00] iPodTouch7
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE507200] iPhone5S
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7200] iPhone6Plus
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE505600] iPhone6S
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4E00] iPhone6SPlus
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE504700] iPhone7Plus
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4A00] iPhoneSE
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE506A00] iPhone8
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6900] iPhone8Plus
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE504500] iPhoneX
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7000] iPhoneXS
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE506700] iPhoneXSMax
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7C00] iPhoneXR
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE504D00] iPhone11
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6800] iPhone11Pro
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE506800] iPhone11ProMax
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7700] iPhoneSE2
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE506900] iPhone12Mini
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6500] iPhone12
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE506200] iPhone12Pro
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5E00] iPhone12ProMax
+[2021.12.04-02.27.18:116][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BA700] iPadPro105
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4700] iPadPro129
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BAE00] iPadPro97
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7400] iPadPro2_129
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BB700] iPad5
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5900] iPad6
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BAB00] iPad7
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7900] iPad8
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9E00] iPadPro11
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5600] iPadPro2_11
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8400] iPadPro3_129
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6D00] iPadPro4_129
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BA900] AppleTV
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5000] AppleTV4K
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9200] TVOS
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4B00] Mac
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9A00] MacClient
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4C00] MacNoEditor
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BAA00] MacServer
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6400] Linux
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8700] LinuxAArch64
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F7600] LinuxNoEditor
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8800] LinuxAArch64NoEditor
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4900] LinuxClient
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5BA800] LinuxAArch64Client
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6B00] LinuxServer
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8200] LinuxAArch64Server
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4200] Android
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9000] Android_Low
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4400] Android_Mid
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8300] Android_High
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5800] Android_Default
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8E00] Android_Adreno4xx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6700] Android_Adreno5xx_Low
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8C00] Android_Adreno5xx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F6300] Android_Adreno6xx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B8100] Android_Adreno6xx_Vulkan
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5300] Android_Mali_T6xx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9400] Android_Mali_T7xx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F4500] Android_Mali_T8xx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE5B9800] Android_Mali_G71
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE4F5A00] Android_Mali_G72
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55A900] Android_Mali_G72_Vulkan
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE507C00] Android_Mali_G76
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE558700] Android_Mali_G76_Vulkan
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE507E00] Android_Mali_G77
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE559000] Android_Mali_G77_Vulkan
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE505F00] Android_Vulkan_SM5
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55B400] Android_PowerVR_G6xxx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE504300] Android_PowerVR_GT7xxx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE558E00] Android_PowerVR_GE8xxx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE507000] Android_PowerVR_GM9xxx
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55B300] Android_PowerVR_GM9xxx_Vulkan
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE507F00] Android_TegraK1
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE55BD00] Android_Unknown_Vulkan
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE504600] Lumin
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE558C00] Lumin_Desktop
+[2021.12.04-02.27.18:117][342]LogDeviceProfile: Device profile begin destroy: [000001CBBE507100] HoloLens
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:283][342]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.27.18:283][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.12.04-02.27.18:284][342]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.12.04-02.27.18:517][342]LogExit: Transaction tracking system shut down
+[2021.12.04-02.27.18:615][342]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.12.04-02.27.19:031][342]LogExit: Editor shut down
+[2021.12.04-02.27.23:775][342]LogExit: Object subsystem successfully closed.
+[2021.12.04-02.27.24:024][342]LogShaderCompilers: Display: Shaders left to compile 0
